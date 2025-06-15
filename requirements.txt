@@ -1,9 +1,16 @@
+fastapi
 matplotlib
 numpy
 pandas
 Pillow
+pydantic
+pytest
+python-dotenv
 PyYAML
 seaborn
 tensorflow
 scikit-learn
 opencv-python
+uvicorn
+httpx
+python-multipart

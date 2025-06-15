@@ -1,0 +1,109 @@
+2025-06-08 11:44:18,088 - INFO - Prediction done in 0.4254s: {'class_': 'Spider_mites_Two_spotted_spider_mite', 'confidence': 0.9999468326568604}
+2025-06-08 11:44:46,089 - INFO - Prediction done in 0.104s: {'class_': 'Early_blight', 'confidence': 0.9992238283157349}
+2025-06-08 11:46:45,121 - INFO - Prediction done in 0.4897s: {'class_': 'Early_blight', 'confidence': 0.9992238283157349}
+2025-06-08 11:46:45,122 - ERROR - Prediction failed
+Traceback (most recent call last):
+  File "c:\Users\sagni\OneDrive\Documents\Tomato-Disease-Classification\api\main.py", line 69, in predict
+    return PredictionResponse(**prediction)
+  File "C:\Users\sagni\AppData\Local\Programs\Python\Python39\lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 2 validation errors for PredictionResponse
+Class
+  Field required [type=missing, input_value={'class_': 'Early_blight'...ce': 0.9992238283157349}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+Confidence
+  Field required [type=missing, input_value={'class_': 'Early_blight'...ce': 0.9992238283157349}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-06-08 11:47:53,016 - INFO - Prediction done in 0.4206s: {'Class': 'Early_blight', 'Confidence': 0.9992238283157349}
+2025-06-08 11:48:24,567 - INFO - Prediction done in 0.1626s: {'Class': 'mosaic_virus', 'Confidence': 0.9999402761459351}
+2025-06-08 11:53:14,107 - INFO - Model info endpoint hit. Responding with model path and number of classes.
+2025-06-08 19:57:51,072 - DEBUG - Using proactor: IocpProactor
+2025-06-08 19:58:01,882 - INFO - Model info endpoint hit. Responding with model path and number of classes.
+2025-06-08 19:58:09,728 - DEBUG - /health endpoint called
+2025-06-08 19:59:47,012 - DEBUG - Calling on_part_begin with no data
+2025-06-08 19:59:47,012 - DEBUG - Calling on_header_field with data[54:73]
+2025-06-08 19:59:47,013 - DEBUG - Calling on_header_value with data[75:164]
+2025-06-08 19:59:47,013 - DEBUG - Calling on_header_end with no data
+2025-06-08 19:59:47,014 - DEBUG - Calling on_header_field with data[166:178]
+2025-06-08 19:59:47,014 - DEBUG - Calling on_header_value with data[180:190]
+2025-06-08 19:59:47,014 - DEBUG - Calling on_header_end with no data
+2025-06-08 19:59:47,014 - DEBUG - Calling on_headers_finished with no data
+2025-06-08 19:59:47,014 - DEBUG - Calling on_part_data with data[194:20351]
+2025-06-08 19:59:47,015 - DEBUG - Calling on_part_end with no data
+2025-06-08 19:59:47,015 - DEBUG - Calling on_end with no data
+2025-06-08 19:59:47,605 - INFO - Prediction done in 0.5879s: {'Class': 'mosaic_virus', 'Confidence': 0.9999995231628418}
+2025-06-08 20:00:17,943 - DEBUG - /health endpoint called
+2025-06-10 15:33:00,724 - DEBUG - Using proactor: IocpProactor
+2025-06-10 15:33:01,100 - DEBUG - /health endpoint called
+2025-06-10 15:33:01,127 - DEBUG - /health endpoint called
+2025-06-10 15:33:01,149 - INFO - Model info endpoint hit. Responding with model path and number of classes.
+2025-06-10 15:33:01,231 - DEBUG - Calling on_part_begin with no data
+2025-06-10 15:33:01,231 - DEBUG - Calling on_header_field with data[36:55]
+2025-06-10 15:33:01,232 - DEBUG - Calling on_header_value with data[57:110]
+2025-06-10 15:33:01,232 - DEBUG - Calling on_header_end with no data
+2025-06-10 15:33:01,232 - DEBUG - Calling on_header_field with data[112:124]
+2025-06-10 15:33:01,232 - DEBUG - Calling on_header_value with data[126:136]
+2025-06-10 15:33:01,232 - DEBUG - Calling on_header_end with no data
+2025-06-10 15:33:01,232 - DEBUG - Calling on_headers_finished with no data
+2025-06-10 15:33:01,232 - DEBUG - Calling on_part_data with data[140:14498]
+2025-06-10 15:33:01,233 - DEBUG - Calling on_part_end with no data
+2025-06-10 15:33:01,233 - DEBUG - Calling on_end with no data
+2025-06-10 15:33:02,060 - INFO - Prediction done in 0.8259s: {'Class': 'Bacterial_spot', 'Confidence': 0.7506077885627747}
+2025-06-10 15:33:02,091 - DEBUG - Calling on_part_begin with no data
+2025-06-10 15:33:02,092 - DEBUG - Calling on_header_field with data[36:55]
+2025-06-10 15:33:02,093 - DEBUG - Calling on_header_value with data[57:103]
+2025-06-10 15:33:02,094 - DEBUG - Calling on_header_end with no data
+2025-06-10 15:33:02,094 - DEBUG - Calling on_header_field with data[105:117]
+2025-06-10 15:33:02,094 - DEBUG - Calling on_header_value with data[119:129]
+2025-06-10 15:33:02,094 - DEBUG - Calling on_header_end with no data
+2025-06-10 15:33:02,095 - DEBUG - Calling on_headers_finished with no data
+2025-06-10 15:33:02,096 - DEBUG - Calling on_part_data with data[133:26240]
+2025-06-10 15:33:02,096 - DEBUG - Calling on_part_end with no data
+2025-06-10 15:33:02,096 - DEBUG - Calling on_end with no data
+2025-06-10 15:33:02,334 - INFO - Prediction done in 0.2374s: {'Class': 'healthy', 'Confidence': 0.9999998807907104}
+2025-06-10 15:33:02,387 - DEBUG - Calling on_part_begin with no data
+2025-06-10 15:33:02,388 - DEBUG - Calling on_header_field with data[36:55]
+2025-06-10 15:33:02,388 - DEBUG - Calling on_header_value with data[57:107]
+2025-06-10 15:33:02,388 - DEBUG - Calling on_header_end with no data
+2025-06-10 15:33:02,388 - DEBUG - Calling on_header_field with data[109:121]
+2025-06-10 15:33:02,389 - DEBUG - Calling on_header_value with data[123:133]
+2025-06-10 15:33:02,389 - DEBUG - Calling on_header_end with no data
+2025-06-10 15:33:02,389 - DEBUG - Calling on_headers_finished with no data
+2025-06-10 15:33:02,389 - DEBUG - Calling on_part_data with data[137:22710]
+2025-06-10 15:33:02,389 - DEBUG - Calling on_part_end with no data
+2025-06-10 15:33:02,390 - DEBUG - Calling on_end with no data
+2025-06-10 15:33:02,584 - INFO - Prediction done in 0.1945s: {'Class': 'Target_Spot', 'Confidence': 0.9987117052078247}
+2025-06-10 15:35:41,911 - DEBUG - Using proactor: IocpProactor
+2025-06-10 15:35:51,059 - DEBUG - /health endpoint called
+2025-06-10 15:35:58,414 - INFO - Model info endpoint hit. Responding with model path and number of classes.
+2025-06-10 15:36:10,335 - DEBUG - Calling on_part_begin with no data
+2025-06-10 15:36:10,337 - DEBUG - Calling on_header_field with data[54:73]
+2025-06-10 15:36:10,338 - DEBUG - Calling on_header_value with data[75:167]
+2025-06-10 15:36:10,338 - DEBUG - Calling on_header_end with no data
+2025-06-10 15:36:10,339 - DEBUG - Calling on_header_field with data[169:181]
+2025-06-10 15:36:10,341 - DEBUG - Calling on_header_value with data[183:193]
+2025-06-10 15:36:10,342 - DEBUG - Calling on_header_end with no data
+2025-06-10 15:36:10,342 - DEBUG - Calling on_headers_finished with no data
+2025-06-10 15:36:10,343 - DEBUG - Calling on_part_data with data[197:17368]
+2025-06-10 15:36:10,345 - DEBUG - Calling on_part_end with no data
+2025-06-10 15:36:10,347 - DEBUG - Calling on_end with no data
+2025-06-10 15:36:11,793 - INFO - Prediction done in 1.436s: {'Class': 'Early_blight', 'Confidence': 0.9997041821479797}
+2025-06-10 15:36:36,141 - DEBUG - Using proactor: IocpProactor
+2025-06-10 15:36:46,898 - DEBUG - /health endpoint called
+2025-06-10 15:36:46,925 - DEBUG - Starting new HTTP connection (1): localhost:8501
+2025-06-10 15:36:46,942 - DEBUG - http://localhost:8501 "GET /v1/models/tomatoes_model HTTP/1.1" 200 154
+2025-06-10 15:36:51,789 - INFO - Model info endpoint hit. Responding with model path and number of classes.
+2025-06-10 15:36:59,003 - DEBUG - Calling on_part_begin with no data
+2025-06-10 15:36:59,005 - DEBUG - Calling on_header_field with data[54:73]
+2025-06-10 15:36:59,006 - DEBUG - Calling on_header_value with data[75:167]
+2025-06-10 15:36:59,007 - DEBUG - Calling on_header_end with no data
+2025-06-10 15:36:59,008 - DEBUG - Calling on_header_field with data[169:181]
+2025-06-10 15:36:59,009 - DEBUG - Calling on_header_value with data[183:193]
+2025-06-10 15:36:59,010 - DEBUG - Calling on_header_end with no data
+2025-06-10 15:36:59,011 - DEBUG - Calling on_headers_finished with no data
+2025-06-10 15:36:59,012 - DEBUG - Calling on_part_data with data[0:17171]
+2025-06-10 15:36:59,013 - DEBUG - Calling on_part_end with no data
+2025-06-10 15:36:59,014 - DEBUG - Calling on_end with no data
+2025-06-10 15:36:59,206 - DEBUG - Starting new HTTP connection (1): localhost:8501
+2025-06-10 15:36:59,355 - DEBUG - http://localhost:8501 "POST /v1/models/tomatoes_model:predict HTTP/1.1" 200 175
+2025-06-10 15:36:59,364 - INFO - Prediction done in 0.3486s: {'Class': 'Early_blight', 'Confidence': 0.994473159}
